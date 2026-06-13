@@ -12,6 +12,7 @@ Autor: José Augusto N. G. Manzano (1ª edição)
 O objetivo é praticar e consolidar conceitos fundamentais de programação imperativa e da linguagem C++ moderna.
 
 📂 **Estrutura dos Exercícios**
+
 Os exercícios estão organizados por tópicos de aprendizado:
 
 Programação com Sequência
@@ -59,6 +60,7 @@ Exercícios com registros e objetos simples
 Introdução à organização de dados complexos
 
 🚀 **Objetivos**
+
 Fixar conceitos de lógica de programação imperativa.
 
 Aplicar recursos da linguagem C++23 em exemplos práticos.
