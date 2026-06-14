@@ -1,5 +1,12 @@
 // PROGRAMA C04EX3E_PONTEIRO.CPP
 
+/* Efetuar a leitura de tres valores numericos (representados pelas variaveis A, B e C) e processar
+o calculo da equacao completa de segundo grau, utilizando a formula de Bhaskara (considerar para a solucao do problema todas as possiveis
+condicoes para delta: delta < 0 - nao ha solucao real, delta > 0 - ha duas solucoes reais e diferentes e delta = 0 - ha apenas uma solucao
+real). Lembre-se de que é completa a equacao de segundo grau que possui todos os coeficientes A, B e C diferentes de zero. O programa deve apresentar
+respostas para todas as condicoes estabelecidas para delta. COM PONTEIRO.*/
+
+
 #include <iostream>
 #include <cmath>   // para sqrt()
 
