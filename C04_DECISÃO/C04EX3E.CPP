@@ -8,12 +8,13 @@ respostas para todas as condicoes estabelecidas para delta.*/
 
 #include <iostream>
 #include <cmath>   // para sqrt()
+#include <iomanip>
 
 using namespace std;
 
 int main()
 {
-    double a, b, c;
+    int16_t a, b, c;
 
     cout << "=== CALCULANDO A EQUACAO DE SEGUNDO GRAU ===" << endl << endl;
 
@@ -30,7 +31,7 @@ int main()
     cout << endl;
 
     if (a != 0 and b != 0 and c != 0) {
-        double delta = pow(b, 2) - 4 * a * c;
+        int16_t delta = pow(b, 2) - 4 * a * c;
 
         cout << "Delta = " << delta << endl << endl;
 
@@ -38,12 +39,12 @@ int main()
             cout << "Nao ha solucao real (delta < 0)." << endl << endl;
         }
         else if (delta == 0) {
-            double x = -b / (2 * a);
+            int16_t x = -b / (2 * a);
             cout << "Ha apenas uma solucao real: x = " << x << endl << endl;
         }
         else {
-            double x1 = (-b + sqrt(delta)) / (2 * a);
-            double x2 = (-b - sqrt(delta)) / (2 * a);
+            int16_t x1 = (-b + sqrt(delta)) / (2 * a);
+            int16_t x2 = (-b - sqrt(delta)) / (2 * a);
             cout << "Ha duas solucoes reais e diferentes:" << endl << endl;
             cout << "x1 = " << x1 << endl;
             cout << "x2 = " << x2 << endl << endl;
