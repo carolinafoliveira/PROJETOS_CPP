@@ -1,4 +1,4 @@
-// PROGRAMA C05EX1B.CPP
+// PROGRAMA C05EX1B_WHILE.CPP
 
 /* Elaborar programa que mostre os resultados da tabuada de um numero qualquer
 a qual deve ser apresentada de acordo com sua forma tradicional*/
