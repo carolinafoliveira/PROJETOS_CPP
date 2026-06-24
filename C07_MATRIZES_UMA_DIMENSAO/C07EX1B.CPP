@@ -1,4 +1,4 @@
-// PROGRAMA C07EX1A.CPP
+// PROGRAMA C07EX1B.CPP
 
 /* Elaborar um programa que leia oito elementos numericos inteiros
 em uma matriz A de uma dimensão do tipo vetor. Construir uma matriz B
